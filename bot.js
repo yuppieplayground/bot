@@ -3,27 +3,8 @@ var tracery = require('tracery-grammar');
 var rawGrammar = 
 {
 	"origin": [
-		"... take the #ordinal# #direction# after #landmark# ...",
-		"... continue past #landmark#, then turn #direction# ...",
-		"... you should go past #landmark# ...",
-		"... be on the lookout for #landmark# ...",
-		"... cut through to the #direction# ...",
-		"... carry on for #distance# ...",
-		"(if you see #landmark# #too far#)",
-		"... carry on past #landmark# ...",
-		"... go past #landmark# ...",
-		"... then under #bridge# ...",
-		"... there'll be #landmark# to your #direction# ...",
-		"... then past #landmark# ...",
-		"... take the #ordinal# #direction# ...",
-		"... continue for #distance# ...",
-		"... after #distance#, turn #direction# ...",
-		"... then turn #direction# ...",
-		"... turn #direction# here ...",
-		"... #ordinal# #direction# ...",
-		"... #direction# ...",
-		"... veer #direction# #possiblejunction# ...",
-		"... keep going til you see #landmark# ..."
+		"... take the jokichi #ordinal# #direction# after #landmark# ...",
+		
 	],
 	"direction": [
 		"left",
